@@ -15,6 +15,12 @@ body{
     padding: 0%;
 }
 
+#container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 #sidebar{
     display: block;
     width: 20%;
@@ -28,4 +34,12 @@ body{
 
 #toc{
     list-style-position: inside;
+}
+
+#content{
+    height: 100vh;
+    margin-left: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
