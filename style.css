@@ -50,6 +50,15 @@ body{
     display: flex;
     flex-direction: column;
     font-size: 30px;
+    gap: 30px;
+}
+
+.box{
+    background-color: #f6f6f6;
+    border: 3px solid #d6d2cf;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
 }
 
 #you{
