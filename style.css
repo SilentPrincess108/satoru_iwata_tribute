@@ -58,6 +58,10 @@ h3{
     list-style-position: inside;
 }
 
+a{
+    text-decoration: none;
+}
+
 #content{
     width: 80%;
     height: 100%;
@@ -94,7 +98,26 @@ h3{
 }
 
 #you{
-    width: 150px;
-    height:200px;
+    height: 275px;
     object-fit: cover;
+    flex: 1 1 1;
+}
+
+.quote{
+    border-left: 5px solid #990e13;
+    padding: 10px;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    background-color: #990e13;
+    text-align: center;
+    font-size: 30px;
+    color: #f6f6f6;
+    border: 3px solid #ada29a;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
 }
