@@ -15,18 +15,29 @@ body{
     padding: 0%;
 }
 
+h1, h3{
+    color: #990e13;
+}
+
+img{
+    border: 3px dashed #ada29a;
+    border-radius: 20px;
+}
+
 #container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
 }
 
 #sidebar{
-    display: block;
+    display: flex;
+    flex-direction: column; 
     width: 20%;
     height: 100vh;
+    position: sticky;
+    top: 0;
     background-color: #f6f6f6;
-    position: fixed;
     padding: 10px;
     text-align: center;
     font-size: 20px;
@@ -39,13 +50,17 @@ body{
     transform: scale(1.005);
 }
 
+#logo{
+    flex: 1 1 1;
+}
+
 #toc{
     list-style-position: inside;
 }
 
 #content{
-    height: 100vh;
-    margin-left: 400px;
+    width: 80%;
+    height: 100%;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -53,12 +68,29 @@ body{
     gap: 30px;
 }
 
+.block{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
 .box{
     background-color: #f6f6f6;
-    border: 3px solid #d6d2cf;
+    border: 3px solid #ada29a;
     border-radius: 15px;
     padding: 15px;
     margin: 10px;
+    flex: 1 1 1;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    max-height: 300px;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 #you{
