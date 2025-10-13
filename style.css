@@ -55,11 +55,29 @@ h3{
 }
 
 #toc{
-    list-style-position: inside;
+    text-align: center;
+}
+
+ol{
+    padding: 0%;
+}
+
+
+li{
+    font-size: 23px;
+    color: #990e13;
+    list-style-type: none;
+    padding: 5px;
 }
 
 a{
     text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: #990e13;
+    text-decoration-thickness: 2px;
 }
 
 #content{
@@ -110,14 +128,44 @@ a{
 
 button{
     height: 50px;
-    width: 100px;
+    width: 75px;
     background-color: #990e13;
     text-align: center;
     font-size: 30px;
     color: #f6f6f6;
-    border: 3px solid #ada29a;
+    box-shadow: 3px 3px 3px black;
+    margin: 10px;
+}
+
+button:hover{
+    box-shadow: 3px 3px 6px black;
+    transform: scale(1.02);
+}
+
+#button1{
     position: fixed;
     bottom: 0;
     right: 0;
-    margin: 10px;
 }
+
+#button2{
+    position: fixed;
+    bottom: 0;
+}
+
+/*Scroll bar*/
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 15px;
+    background-color: #ada29a;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #990e13;
+    border-radius: 15px;
+}
+
