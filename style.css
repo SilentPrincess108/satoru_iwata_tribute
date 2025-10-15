@@ -95,10 +95,15 @@ a:hover{
     flex-direction: column;
 }
 
-.wrapper{
+.block-wrapper{
     display: flex;
     flex-direction: row;
     gap: 30px;
+}
+
+.image-wrapper{
+    display: flex;
+    flex-direction: column;
 }
 
 .box{
@@ -115,10 +120,20 @@ a:hover{
     overflow-x: hidden;
 }
 
+.box p{
+    margin: 0;
+    text-align: justify;
+}
+
 #you{
     height: 275px;
     object-fit: cover;
     flex: 1 1 1;
+}
+
+#sig{
+    width: 200px;
+    margin: auto;
 }
 
 .quote{
