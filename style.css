@@ -115,9 +115,6 @@ a:hover{
     flex: 1 1 1;
     flex-wrap: wrap;
     max-width: 1500px;
-    max-height: 300px;
-    overflow: scroll;
-    overflow-x: hidden;
 }
 
 .box p{
