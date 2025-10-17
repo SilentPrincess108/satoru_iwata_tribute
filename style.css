@@ -15,6 +15,21 @@ body{
     padding: 0%;
 }
 
+.interactive{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+#icon:hover{
+    transform: scale(1.05);
+    content: url("images/kirby_awake.PNG");
+}
+
+#icon{
+    width: 150px;
+}
+
 h3{
     color: #990e13;
 }
